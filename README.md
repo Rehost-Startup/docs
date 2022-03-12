@@ -7,7 +7,7 @@
 
 Rehost sets up a tunnel between localhost devices and all of your cloud machines. Our **hot-reload takes 20 seconds**, usually, to reflect changes in your local code live on public URL for quick debugging. This can save you the numerous "minor commits" that sucks the productivity out. Furthermore, with completly docker-based deployments, you can take full control of global packages installed on the machine and not just the dependencies in your codebase.
 
-### Scale across Multiple Cloud Infrastructure
+### Scale across Multi-Cloud Infrastructure
 
 Rehost provides simplified Infrastructure-as-a-Code support to allow quick deployment on any cloud machine. It removes dependency on other cloud services to allow you to break vendor lock-ins. You get **instant public URL and load-balancing** without having to connect to other services.
 
