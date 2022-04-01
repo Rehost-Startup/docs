@@ -1,5 +1,6 @@
 {
   "win": {
-    "latest": "0.1"
+    "latest": "0.1",
+    "url": "https://github.com/Hive-Space/docs/releases/download/v0.1/rehost-win.zip"
   }
 }
