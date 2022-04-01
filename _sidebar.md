@@ -1,13 +1,14 @@
 - [Overview](/ "Rehost Docs")
 
 - Getting Started
+  - [Quickstart](/getting-started/quickstart.md "Quick Start | Rehost Docs")
   - [Rehost Basics](/getting-started/basics.md "Getting Started | Rehost Docs")
   - [Setting Up Cloud Machine](/getting-started/setup-cloud-machine.md "Setting Up Cloud Machine | Rehost Docs")
   - [Setting Up Local Machine](/getting-started/setup-local-machine.md "Setting Up Local Machine | Rehost Docs")
   - [Deploy an App](/getting-started/deploy-app.md "Deploy an App | Rehost Docs")
 
 - Rehost CLI
-  - [Installation](/rehost-cli/insallation.md "Installation | Rehost CLI")
+  - [Installation](/rehost-cli/installation.md "Installation | Rehost CLI")
   - [rehostapp.yml](/rehost-cli/rehostapp.md "rehostapp.yml | Rehost CLI")
   - [rehostmachine.yml](/rehost-cli/rehostmachine.md "rehostmachine.yml | Rehost CLI")
   - [rehost login](/rehost-cli/login.md "rehost login | Rehost CLI")
