@@ -5,7 +5,7 @@ The CLI is available on [Windows](getting-started/installation?id=windows), [Lin
 ## CLI Installation
 
 ### Mac
-* **Prerequisite**: Install Docker using [official Docker(Mac) instructions](https://docs.docker.com/desktop/mac/install/)
+* **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Mac) instructions](https://docs.docker.com/desktop/mac/install/)
 * Download zipped binaries using:
 
 ```
@@ -41,7 +41,7 @@ rm -rf bin
 ```
 
 ### Windows
-* **Prerequisite**: Install Docker using [official Docker(Windows) instructions](https://docs.docker.com/desktop/windows/install/)
+* **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Windows) instructions](https://docs.docker.com/desktop/windows/install/)
 
 * Download the zipped binaries from here [Rehost CLI - Windows](https://github.com/Hive-Space/docs/releases/download/v0.3/rehostcli-win-0.3.zip)
 * Make a folder named `rehost` in root of `C:` directory and unzip all the files here, ie, `bin` should be present in `C:\rehost` directory and likewise for all other files and folders that are extracted.
@@ -53,7 +53,7 @@ rm -rf bin
   * Click on `Ok` recursively to save changes and start a new terminal session. Run `rh -v` to verify if CLI was installed successfully.
 
 ### Linux
-* **Prerequisite**: Install Docker using [official Docker(Linux) instructions](https://docs.docker.com/engine/install/)
+* **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Linux) instructions](https://docs.docker.com/engine/install/)
 * Download zipped binaries using:
 
 ```
