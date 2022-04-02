@@ -1,14 +1,13 @@
-# rh app delete
+# rh app info
 
 ```
 Usage:
-rh app delete
+rh app info
 
 ```
 
-Deletes the app defined by label in `rehostapp.yml`.
+Displays all parameters passed in the `rehostapp.yml` file.
 
 Note: `rehostapp.yml` should be present in the current directory. 
-
 
 

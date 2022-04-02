@@ -40,5 +40,5 @@ A local directory can be registered as an application by defining `rehostapp.yml
 
 ## Next Steps
 
-* Install Rehost CLI
-* Getting Started Guides
+* [Install Rehost CLI](/getting-started/installation.md)
+* [Quickstart](/getting-started/quickstart.md)
