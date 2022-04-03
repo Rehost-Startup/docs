@@ -41,7 +41,7 @@ The `memory` and `disk` attributes play no role in deployment. These attributes 
 version: 1
 
 label: '<username>.personal.dockerapp'
-url:
+urls:
   - "<username>.dockerapp:80"
 app_type: 'docker-compose'
 machines:
