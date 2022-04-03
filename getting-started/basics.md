@@ -12,7 +12,7 @@ Here are terms used throughout the Rehost EcoSystem:
 * **Team Name**: A team name is unique in the Rehost system. A team name that you provide while creating or editing a team on dashboard is saved in the following format:
 
 ```
-<your_username>.<team_label>
+<username>.<team_label>
 ```
 The team label serves as a access-barrier and `Rehost Apps` and `Rehost Devices` belong to a team.
 

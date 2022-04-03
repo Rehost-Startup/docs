@@ -6,7 +6,7 @@ rh device up
 
 ```
 
-Starts connection with Reshot Network. After the device is in `up` state, all apps will be pulled and start running on this machine. 
+Starts connection with Reshot Network. After the device is in `up` state, all apps will be downloaded and started that were allocated to this machine.
 
 
 

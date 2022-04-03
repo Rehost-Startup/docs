@@ -9,7 +9,7 @@ The CLI is available on [Windows](getting-started/installation?id=windows), [Lin
 * Download zipped binaries using:
 
 ```
-wget -o rehost-cli.zip https://github.com/Hive-Space/docs/releases/download/v0.3/rehostcli-linux-0.3.zip
+wget -o rehost-cli.zip https://github.com/Hive-Space/docs/releases/download/v0.3/rehostcli-macos-0.3.zip
 ```
 
 * Extract the downloaded files:

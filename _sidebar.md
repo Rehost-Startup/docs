@@ -23,5 +23,5 @@
   - [rh app hot-reload](/rehost-cli/app-hot-reload.md "rh app hot-reload | Rehost CLI")
   - [rh app delete](/rehost-cli/app-delete.md "rh app delete | Rehost CLI")
 
-- [Help]()
+- [Help](https://discord.gg/RnkBxDJJhQ)
 

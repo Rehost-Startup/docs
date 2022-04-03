@@ -10,7 +10,7 @@
 
 ## 1. Install Rehost CLI
 
-TODO
+Please refer to the [Installation Page](/getting-started/installation.md) section for instructions on installing the Rehost CLI.
 
 ## 2. Register Compute Machine
 
