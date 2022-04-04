@@ -5,40 +5,7 @@ The CLI is available on [Windows](getting-started/installation?id=windows), [Lin
 ## CLI Installation
 
 ### Mac
-* **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Mac) instructions](https://docs.docker.com/desktop/mac/install/)
-* Download zipped binaries using:
-
-```
-wget -o rehost-cli.zip https://github.com/Hive-Space/docs/releases/download/v0.3/rehostcli-macos-0.3.zip
-```
-
-* Extract the downloaded files:
-
-```
-# Install unzip if not already installed (OPTIONAL)
-sudo apt-get install unzip
-
-# Extract the downloaded files
-unzip rehost-cli.zip
-```
-
-* Move the extracted files and give executable permissions:
-
-```
-mv bin/* /bin/*
-chmod +x /bin/rh
-chmod +x /bin/rhbkg
-chmod +x /bin/rhupdate
-```
-
-Now, to use the CLI, use `sudo` to get root access and run `sudo rh -v` to verify if CLI was installed successfully.
-
-* Finally, delete the downloaded files:
-
-```
-rm -rf rehost-cli.zip
-rm -rf bin
-```
+Rehost is coming soon to the Mac.
 
 ### Windows
 * **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Windows) instructions](https://docs.docker.com/desktop/windows/install/)
