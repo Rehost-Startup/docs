@@ -9,12 +9,13 @@ Here's what it looks like:
 ```
 version: 1
 
-label: 'john.jedi.webapp'
+label: 'john.personal.webapp'
 app_type: 'docker-compose'
-machines:
-  - 'john.jedi.StarKiller'
 urls:
-  - 'john.jedi.webapp:80'
+  - 'john.personal.webapp:80'
+machines:
+  - 'john.personal.vm'
+
 ```
 
 * `version (required)`: It is used to identify the syntax used. In case of any updates to this configuration syntax in future, the version number will help Rehost in maintaining support for previous versions.

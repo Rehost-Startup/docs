@@ -7,7 +7,7 @@ Here's what it looks like:
 ```
 version: 1
 
-label: 'john.jedi.StarKiller'
+label: 'john.personal.vm'
 memory: '8gb'
 disk: '256gb'
 ```
