@@ -10,7 +10,7 @@ Rehost is coming soon to the Mac.
 ### Windows
 * **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Windows) instructions](https://docs.docker.com/desktop/windows/install/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
 
-* Download the zipped binaries from here [Rehost CLI - Windows](https://github.com/Hive-Space/docs/releases/download/v0.3/rehostcli-win-0.3.zip)
+* Download the zipped binaries from here [Rehost CLI - Windows](https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-win-0.4.zip)
 * Make a folder named `rehost` in root of `C:` directory and unzip all the files here, ie, `bin` should be present in `C:\rehost` directory and likewise for all other files and folders that are extracted.
 * Update windows environment variables by adding `C:\rehost\bin` to the `$PATH` variable.
   * Search for `Advanced System Settings` in Windows search or go to `This PC>Properties>Advanced System Settings`.
@@ -28,7 +28,7 @@ Simply removing the binaries will clean the system of any Rehost CLI files. Dele
 * Download zipped binaries using:
 
 ```
-wget -o rehost-cli.zip https://github.com/Hive-Space/docs/releases/download/v0.3/rehostcli-linux-0.3.zip
+wget -o rehost-cli.zip https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0.4.zip
 ```
 
 * Extract the downloaded files:
