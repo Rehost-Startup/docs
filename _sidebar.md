@@ -20,6 +20,7 @@
   - [rh app deploy](/rehost-cli/app-deploy.md "rh app deploy | Rehost CLI")
   - [rh app hot-reload](/rehost-cli/app-hot-reload.md "rh app hot-reload | Rehost CLI")
   - [rh app delete](/rehost-cli/app-delete.md "rh app delete | Rehost CLI")
+  - [rh clean](/rehost-cli/clean.md "rh clean | Rehost CLI")
 
 - [Help](https://discord.gg/RnkBxDJJhQ)
 

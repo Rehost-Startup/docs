@@ -45,7 +45,7 @@ Hot-Reload is designed for development purpose only. These changes are not perma
 ## Lifecycle of a Rehost Machine
 
 The lifecycle of a Rehost Machine is as follows:
-1. `Save`: A Rehost Machine is saved using `rh machine save` command. It can also be updated anytime using `rh machine save` command too.
+1. `Save`: A Rehost Machine is saved using `rh machine save` command. It can also be updated using `rh machine save` command too.
 2. `Status: Up`: A Rehost Machine is in `Up` state using `rh machine up` command. This is the state where it will download all Rehost Apps allocated to it and start running them.
 3. `Status: Down`: A Rehost Machine is in `Down` state using `rh machine down` command. This is the state where it will stop running all Rehost Apps allocated to it, remove all docker containers and delete all local files. The images used by the Rehost Apps are not removed. They need to be manually removed or by using `docker system prune` command.
 4. `Deleted`: A Rehost Machine can be deleted permanently by using `rh machine delete` command.
@@ -53,12 +53,13 @@ The lifecycle of a Rehost Machine is as follows:
 ## Lifecycle of a Rehost App
 
 The lifecycle of a Rehost App is as follows:
-1. `Deploy`: A Rehost Machine is saved using `rh app deploy` command. It can also be updated anytime using `rh app deploy` command too. When the requested Rehost Machines are in `Up` state, the app will be deployed on them.
+1. `Deploy`: A Rehost Machine is saved using `rh app deploy` command. It can also be updated using `rh app deploy` command too. When the requested Rehost Machines are in `Up` state, the app will be deployed on them.
 2. `Deleted`: A Rehost Machine can be deleted permanently by using `rh machine delete` command.
 
 ## Troubleshooting
 
 All CLI logs saved to a `default.log` file.
-On Linux, this file can be found at `/etc/rehost/logs/default.log` location.
 
-On Windows, this file can be found at `C:\rehost\logs\default.log` location.
+On Linux, this file can be found at `/etc/rehost/logs/default.log`.
+
+On Windows, this file can be found at `C:\rehost\logs\default.log`.
