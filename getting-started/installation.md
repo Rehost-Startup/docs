@@ -19,6 +19,10 @@ Rehost is coming soon to the Mac.
   * Create a `New` entry and set the value to `C:\rehost\bin`.
   * Click on `Ok` recursively to save changes and start a new terminal session. Run `rh -v` to verify if CLI was installed successfully.
 
+* **Uninstall**:
+Simply removing the binaries will clean the system of any Rehost CLI files. Delete the `C:\rehost` folder and remove the Environment Variables entry from the system. This process is the same as during creating the environment variable.
+
+
 ### Linux
 * **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Linux) instructions](https://docs.docker.com/engine/install/)
 * Download zipped binaries using:
@@ -55,3 +59,11 @@ rm -rf rehost-cli.zip
 rm -rf bin
 ```
 
+* **Uninstall**:
+Simply removing the binaries will clean the system of any Rehost CLI files:
+
+```
+rm -rf /bin/rh
+rm -rf /bin/rhbkg
+rm -rf /bin/rhupdate
+```

@@ -1,4 +1,4 @@
-# rehostdevice.yml
+# rehostmachine.yml
 
 This is a configuration file used to save compute machine on Rehost Servers. Once it is saved on the server, any app can deployed on this machine using the CLI.
 
@@ -21,9 +21,9 @@ disk: '256gb'
 ```
 Please refer to [Rehost Basics](/getting-started//basics.md) for complete information on naming conventions.
 
-The complete label must be unique in the system, ie, two teams can have a device with the same label since team names are different.
+The complete label must be unique in the system, ie, two teams can have a machine with the same label since team names are different.
 
-Moreover, defining the `teamname` will make sure that the device can be used by the members of the given team only, ie, only those team members will be able to update the configuration of this machine. And, only those team member will be able to deploy apps on this machine.
+Moreover, defining the `teamname` will make sure that the machine can be used by the members of the given team only, ie, only those team members will be able to update the configuration of this machine. And, only those team member will be able to deploy apps on this machine.
 
 Teams can be managed using the dashboard [here](https://rehost.in/dashboard/team).
 

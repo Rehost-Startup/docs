@@ -12,7 +12,7 @@ Rehost provides the ability to directly control files and processes inside a rem
 ## What can I use Rehost for?
 ### Instant Replication of Localhost Environment
 
-Rehost sets up a tunnel between localhost devices and all of your cloud machines. There are 3 kinds of hot-reload modes available: Default Reload, Soft Reload and Hard Reload. Each of these modes are designed to reflect changes that take up your development time. The quick changes such as simple HTML and JS files can be made in default mode. Furthermore, for changes that require restarting application as a whole to update environment, application dependencies and background services, the Soft and Hard Reload can be used.
+Rehost sets up a tunnel between localhost machines and all of your cloud machines. There are 3 kinds of hot-reload modes available: Default Reload, Soft Reload and Hard Reload. Each of these modes are designed to reflect changes that take up your development time. The quick changes such as simple HTML and JS files can be made in default mode. Furthermore, for changes that require restarting application as a whole to update environment, application dependencies and background services, the Soft and Hard Reload can be used.
 
 ### Loosen Dependency on a Single Cloud Ecosystem
 
@@ -28,11 +28,11 @@ Having made the process of deployment seamless, it is became easy to deploy mult
   <img src="images/RehostArchitecture.png" width="75%" height="60%">
 </p>
 
-Rehost CLI is a robust toolset designed to manage applications running. On the remote instance, you'll provide a unique label to your device to register it on the Rehost Network. On the local machine, you'll configure the subdomains, port numbers and application files through `yml` files to control all aspects of your application running on the cloud.
+Rehost CLI is a robust toolset designed to manage applications running. On the remote instance, you'll provide a unique label to your machine to register it on the Rehost Network. On the local machine, you'll configure the subdomains, port numbers and application files through `yml` files to control all aspects of your application running on the cloud.
 
-### Rehost Device
+### Rehost Machine
 
-A compute machine can be registered in the Rehost Network using the Rehost CLI. The CLI will read relevant configurations of the machine and user-provided settings in `rehostdevice.yml`. The cloud server keeps track of the machines that are up and running. 
+A compute machine can be registered in the Rehost Network using the Rehost CLI. The CLI will read relevant configurations of the machine and user-provided settings in `rehostmachine.yml`. The cloud server keeps track of the machines that are up and running. 
 
 ### Rehost App
 

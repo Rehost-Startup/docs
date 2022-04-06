@@ -11,7 +11,7 @@ version: 1
 
 label: 'john.jedi.webapp'
 app_type: 'docker-compose'
-devices:
+machines:
   - 'john.jedi.StarKiller'
 urls:
   - 'john.jedi.webapp:80'
@@ -35,11 +35,10 @@ Teams can be managed using the dashboard [here](https://rehost.in/dashboard/team
 * `app_type (required)`: This is used to identify the type of app running and is restricted to the following values:
 
   * `docker-compose`
-  * `nodejs`
 
 The `app_type` lets Rehost identify the app and the commands used to manage the processes that run it. Every `app_type` expects a codebase in a format that is defined [here](#).
 
-* `devices (required)`: This is a list of labels of [Rehost Devices](/rehost-cli/rehostdevice.md) where this app will be deployed.
+* `machines (required)`: This is a list of labels of [Rehost Machines](/rehost-cli/rehostmachine.md) where this app will be deployed.
 
 * `urls (optional)`: This is a list of subdomains mapped to port numbers of the running app. All API requests on the generated url are mapped to specified port numbers. It exepects a list of strings that are in the following format:
 
