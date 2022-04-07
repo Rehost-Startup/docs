@@ -6,7 +6,7 @@ The CLI is available on [Windows](getting-started/installation?id=windows), [Lin
 
 ### Mac
 * **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Linux) instructions](https://docs.docker.com/engine/install/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
-* Download zipped binaries from [the link](https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0.4.zip) and unzip it.
+* Download zipped binaries from [the link](https://github.com/Rehost-Startup/docs/releases/download/v0.4/rehostcli-linux-0.4.zip) and unzip it.
 
 * `cd` to the location where the files were extracted. Now, the current directory should have the `bin` folder in the root directory.
 
@@ -58,7 +58,7 @@ sudo rm -rf /etc/rehost
 ### Windows
 * **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Windows) instructions](https://docs.docker.com/desktop/windows/install/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
 
-* Download the zipped binaries from here [Rehost CLI - Windows](https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-win-0.4.zip)
+* Download the zipped binaries from here [Rehost CLI - Windows](https://github.com/Rehost-Startup/docs/releases/download/v0.4/rehostcli-win-0.4.zip)
 * Extract the zip. Copy the `rehost` folder and paste it in `C:\` directory.
 * Update windows environment variables by adding `C:\rehost\bin` to the `$PATH` variable.
   * Search for `Advanced System Settings` in Windows search or go to `This PC>Properties>Advanced System Settings`.
@@ -73,10 +73,10 @@ Simply removing the binaries will clean the system of any Rehost CLI files. Dele
 
 ### Linux
 * **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Linux) instructions](https://docs.docker.com/engine/install/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
-* Download zipped binaries from [the link](https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0.4.zip) or using command line:
+* Download zipped binaries from [the link](https://github.com/Rehost-Startup/docs/releases/download/v0.4/rehostcli-linux-0.4.zip) or using command line:
 
 ```
-wget https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0.4.zip
+wget https://github.com/Rehost-Startup/docs/releases/download/v0.4/rehostcli-linux-0.4.zip
 ```
 
 * Install the CLI:

@@ -1,16 +1,16 @@
 {
   "win": {
     "latest": "0.4",
-    "url": "https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-win-0.4.zip"
+    "url": "https://github.com/Rehost-Startup/docs/releases/download/v0.4/rehostcli-win-0.4.zip"
   },
 
   "linux": {
     "latest": "0.4",
-    "url": "https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0.4.zip"
+    "url": "https://github.com/Rehost-Startup/docs/releases/download/v0.4/rehostcli-linux-0.4.zip"
   },
 
   "macos": {
     "latest": "0.4",
-    "url": "https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-macos-0.4.zip"
+    "url": "https://github.com/Rehost-Startup/docs/releases/download/v0.4/rehostcli-macos-0.4.zip"
   }
 }
