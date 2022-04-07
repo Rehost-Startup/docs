@@ -24,11 +24,14 @@ sudo chown -R $(whoami) /etc/rehost/
 echo "export PATH=$(pwd)/rehost/bin:$PATH" >> ~/.bash_profile
 ```
 
-Now, close this terminal session and test if the CLI was installed successfully. Check the version:
+* Close this terminal and open a new one. Run `rh -v`. It should give you a security warning. You need to permit the CLI to be run by Mac by going to `System Preferences>Security & Privacy>Privacy` and click 'Allow Anyway` for the command `rh`. Repeat this step but instead of running `rh -v`, run `rhbkg`.
+
+* Check the version by running:
 
 ```
 rh -v
 ```
+The latest version is 0.4.
 
 * **Uninstall**:
 Simply removing the binaries will clean the system of any Rehost CLI files:
