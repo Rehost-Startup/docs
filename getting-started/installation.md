@@ -21,9 +21,9 @@ CURDIR=$(pwd)
 
 ```
 # give executable permissions
-sudo chmod +x bin/rh
-sudo chmod +x bin/rhbkg
-sudo chmod +x bin/rhupdate
+sudo chmod +x rehost/bin/rh
+sudo chmod +x rehost/bin/rhbkg
+sudo chmod +x rehost/bin/rhupdate
 
 # initialize CLI config directory
 sudo mkdir /etc/rehost
