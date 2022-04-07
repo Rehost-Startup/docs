@@ -102,7 +102,8 @@ sudo chown -R $(whoami) /etc/rehost/
 
 # delete the downloaded files:
 rm -rf rehostcli-linux-0.4.zip
-rm -rf bin
+rm -rf rehost
+
 ```
 
 * **Uninstall**:
