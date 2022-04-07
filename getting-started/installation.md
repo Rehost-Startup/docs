@@ -5,7 +5,55 @@ The CLI is available on [Windows](getting-started/installation?id=windows), [Lin
 ## CLI Installation
 
 ### Mac
-Rehost is coming soon to the Mac.
+* **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Linux) instructions](https://docs.docker.com/engine/install/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
+* Download zipped binaries from [the link](https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0.4.zip) and unzip it.
+
+* `cd` to the location where the files were extracted. Now, the current directory should have the `bin` folder in the root directory.
+
+* Save the current directory temporarily:
+
+```
+CURDIR=$(pwd)
+```
+
+* Install the CLI:
+
+```
+# give executable permissions
+sudo chmod +x bin/rh
+sudo chmod +x bin/rhbkg
+sudo chmod +x bin/rhupdate
+
+# initialize CLI config directory
+sudo mkdir /etc/rehost
+sudo chown -R $(whoami) /etc/rehost/
+
+# Update Path variable
+echo "export PATH=$CURDIR/bin:\$PATH" >> ~/.bash_profile
+```
+
+Now, close this terminal session and test if the CLI was installed successfully. Check the version:
+
+```
+rh -v
+```
+
+* **Uninstall**:
+Simply removing the binaries will clean the system of any Rehost CLI files:
+
+```
+rh logout
+rh clean
+sudo rm -rf /bin/rh
+sudo rm -rf /bin/rhbkg
+sudo rm -rf /bin/rhupdate
+sudo rm -rf /etc/rehost
+```
+
+* Delete the extracted files where the `bin` folder was extracted.
+
+* Finally, update the `PATH` variable in the `~/.bash_profile` file. Remove the line that contains the location where the binaries were extracted.
+
 
 ### Windows
 * **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Windows) instructions](https://docs.docker.com/desktop/windows/install/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
@@ -25,40 +73,34 @@ Simply removing the binaries will clean the system of any Rehost CLI files. Dele
 
 ### Linux
 * **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Linux) instructions](https://docs.docker.com/engine/install/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
-* Download zipped binaries using:
+* Download zipped binaries from [the link](https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0.4.zip) or using command line:
 
 ```
 wget https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0.4.zip
 ```
 
-* Extract the downloaded files:
+* Install the CLI:
 
 ```
-# Install unzip if not already installed (OPTIONAL)
+# (OPTIONAL): Install unzip if not already installed
 sudo apt-get install unzip
 
 # Extract the downloaded files
-unzip rehostcli-linux-0.4.zip
-```
+unzip rehostcli-linux-0.4.zip -d rehost
 
-* Move the extracted files and give executable permissions:
+# Move the extracted files
+sudo mv rehost/bin/rh /bin/rh
+sudo mv rehost/bin/rhbkg /bin/rhbkg
+sudo mv rehost/bin/rhupdate /bin/rhupdate
 
-```
-sudo mv bin/rh /bin/rh
-sudo mv bin/rhbkg /bin/rhbkg
-sudo mv bin/rhupdate /bin/rhupdate
+# give executable permissions
 sudo chmod +x /bin/rh
 sudo chmod +x /bin/rhbkg
 sudo chmod +x /bin/rhupdate
 sudo mkdir /etc/rehost
 sudo chown -R $(whoami) /etc/rehost/
-```
 
-Now, to use the CLI, use `sudo` to get root access and run `sudo rh -v` to verify if CLI was installed successfully.
-
-* Finally, delete the downloaded files:
-
-```
+# delete the downloaded files:
 rm -rf rehostcli-linux-0.4.zip
 rm -rf bin
 ```
@@ -67,6 +109,8 @@ rm -rf bin
 Simply removing the binaries will clean the system of any Rehost CLI files:
 
 ```
+rh logout
+rh clean
 sudo rm -rf /bin/rh
 sudo rm -rf /bin/rhbkg
 sudo rm -rf /bin/rhupdate
