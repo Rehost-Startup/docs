@@ -28,7 +28,7 @@ Simply removing the binaries will clean the system of any Rehost CLI files. Dele
 * Download zipped binaries using:
 
 ```
-wget -o rehost-cli.zip https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0.4.zip
+wget https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0.4.zip
 ```
 
 * Extract the downloaded files:
@@ -51,7 +51,7 @@ sudo chmod +x /bin/rh
 sudo chmod +x /bin/rhbkg
 sudo chmod +x /bin/rhupdate
 sudo mkdir /etc/rehost
-sudo chown -R $(whoami) /etc/rehost/**
+sudo chown -R $(whoami) /etc/rehost/
 ```
 
 Now, to use the CLI, use `sudo` to get root access and run `sudo rh -v` to verify if CLI was installed successfully.
