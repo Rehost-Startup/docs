@@ -14,6 +14,7 @@ The CLI is available on [Windows](getting-started/installation?id=windows), [Lin
 
 ```
 CURDIR=$(pwd)
+
 ```
 
 * Install the CLI:
@@ -29,13 +30,15 @@ sudo mkdir /etc/rehost
 sudo chown -R $(whoami) /etc/rehost/
 
 # Update Path variable
-echo "export PATH=$CURDIR/bin:\$PATH" >> ~/.bash_profile
+echo "export PATH=$CURDIR/bin:$PATH" >> ~/.bash_profile
+
 ```
 
 Now, close this terminal session and test if the CLI was installed successfully. Check the version:
 
 ```
 rh -v
+
 ```
 
 * **Uninstall**:
@@ -48,6 +51,7 @@ sudo rm -rf /bin/rh
 sudo rm -rf /bin/rhbkg
 sudo rm -rf /bin/rhupdate
 sudo rm -rf /etc/rehost
+
 ```
 
 * Delete the extracted files where the `bin` folder was extracted.
@@ -116,4 +120,5 @@ sudo rm -rf /bin/rh
 sudo rm -rf /bin/rhbkg
 sudo rm -rf /bin/rhupdate
 sudo rm -rf /etc/rehost
+
 ```
