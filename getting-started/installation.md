@@ -59,7 +59,7 @@ sudo rm -rf /etc/rehost
 * **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Windows) instructions](https://docs.docker.com/desktop/windows/install/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
 
 * Download the zipped binaries from here [Rehost CLI - Windows](https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-win-0.4.zip)
-* Make a folder named `rehost` in root of `C:` directory and unzip all the files here, ie, `bin` should be present in `C:\rehost` directory and likewise for all other files and folders that are extracted.
+* Extract the zip. Copy the `rehost` folder and paste it in `C:\` directory.
 * Update windows environment variables by adding `C:\rehost\bin` to the `$PATH` variable.
   * Search for `Advanced System Settings` in Windows search or go to `This PC>Properties>Advanced System Settings`.
   * Go to `Advanced` Tab and click `Environment Variables...`. It should be present at the bottom.
