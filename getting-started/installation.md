@@ -38,16 +38,20 @@ wget -o rehost-cli.zip https://github.com/Hive-Space/docs/releases/download/v0.4
 sudo apt-get install unzip
 
 # Extract the downloaded files
-unzip rehost-cli.zip
+unzip rehostcli-linux-0.4.zip
 ```
 
 * Move the extracted files and give executable permissions:
 
 ```
-mv bin/* /bin/*
-chmod +x /bin/rh
-chmod +x /bin/rhbkg
-chmod +x /bin/rhupdate
+sudo mv bin/rh /bin/rh
+sudo mv bin/rhbkg /bin/rhbkg
+sudo mv bin/rhupdate /bin/rhupdate
+sudo chmod +x /bin/rh
+sudo chmod +x /bin/rhbkg
+sudo chmod +x /bin/rhupdate
+sudo mkdir /etc/rehost
+sudo chown -R $(whoami) /etc/rehost/**
 ```
 
 Now, to use the CLI, use `sudo` to get root access and run `sudo rh -v` to verify if CLI was installed successfully.
@@ -55,7 +59,7 @@ Now, to use the CLI, use `sudo` to get root access and run `sudo rh -v` to verif
 * Finally, delete the downloaded files:
 
 ```
-rm -rf rehost-cli.zip
+rm -rf rehostcli-linux-0.4.zip
 rm -rf bin
 ```
 
@@ -63,7 +67,8 @@ rm -rf bin
 Simply removing the binaries will clean the system of any Rehost CLI files:
 
 ```
-rm -rf /bin/rh
-rm -rf /bin/rhbkg
-rm -rf /bin/rhupdate
+sudo rm -rf /bin/rh
+sudo rm -rf /bin/rhbkg
+sudo rm -rf /bin/rhupdate
+sudo rm -rf /etc/rehost
 ```
