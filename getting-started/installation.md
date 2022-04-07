@@ -86,7 +86,7 @@ wget https://github.com/Hive-Space/docs/releases/download/v0.4/rehostcli-linux-0
 sudo apt-get install unzip
 
 # Extract the downloaded files
-unzip rehostcli-linux-0.4.zip -d rehost
+unzip rehostcli-linux-0.4.zip
 
 # Move the extracted files
 sudo mv rehost/bin/rh /bin/rh
