@@ -5,19 +5,10 @@ The CLI is available on [Windows](getting-started/installation?id=windows), [Lin
 ## CLI Installation
 
 ### Mac
-* **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Linux) instructions](https://docs.docker.com/engine/install/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
-* Download zipped binaries from [the link](https://github.com/Rehost-Startup/docs/releases/download/v0.4/rehostcli-linux-0.4.zip) and unzip it.
+* **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Linux) instructions](https://docs.docker.com/get-docker/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
+* Download zipped binaries from [the link](https://github.com/Rehost-Startup/docs/releases/download/v0.4/rehostcli-macos-0.4.zip) and unzip it.
 
-* `cd` to the location where the files were extracted. Now, the current directory should have the `bin` folder in the root directory.
-
-* Save the current directory temporarily:
-
-```
-CURDIR=$(pwd)
-
-```
-
-* Install the CLI:
+* The extracted content comprises a single folder `rehost`. Move this folder to any location where you prefer saving the CLI executables. Then, in the parent of `rehost`, run the following commands to install the CLI:
 
 ```
 # give executable permissions
@@ -30,15 +21,13 @@ sudo mkdir /etc/rehost
 sudo chown -R $(whoami) /etc/rehost/
 
 # Update Path variable
-echo "export PATH=$CURDIR/bin:$PATH" >> ~/.bash_profile
-
+echo "export PATH=$(pwd)/rehost/bin:$PATH" >> ~/.bash_profile
 ```
 
 Now, close this terminal session and test if the CLI was installed successfully. Check the version:
 
 ```
 rh -v
-
 ```
 
 * **Uninstall**:
@@ -48,7 +37,6 @@ Simply removing the binaries will clean the system of any Rehost CLI files:
 rh logout
 rh clean
 sudo rm -rf /etc/rehost
-
 ```
 
 * Delete the extracted files where the `bin` folder was extracted.
@@ -104,7 +92,6 @@ sudo chown -R $(whoami) /etc/rehost/
 # delete the downloaded files:
 rm -rf rehostcli-linux-0.4.zip
 rm -rf rehost
-
 ```
 
 * **Uninstall**:
@@ -117,5 +104,4 @@ sudo rm -rf /bin/rh
 sudo rm -rf /bin/rhbkg
 sudo rm -rf /bin/rhupdate
 sudo rm -rf /etc/rehost
-
 ```
