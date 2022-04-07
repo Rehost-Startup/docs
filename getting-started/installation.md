@@ -47,9 +47,6 @@ Simply removing the binaries will clean the system of any Rehost CLI files:
 ```
 rh logout
 rh clean
-sudo rm -rf /bin/rh
-sudo rm -rf /bin/rhbkg
-sudo rm -rf /bin/rhupdate
 sudo rm -rf /etc/rehost
 
 ```
