@@ -28,7 +28,7 @@ Having made the process of deployment seamless, it is became easy to deploy mult
   <img src="images/RehostArchitecture.svg" width="75%" height="60%">
 </p>
 
-Rehost CLI is a robust toolset designed to manage applications running. On the remote instance, you'll provide a unique label to your machine to register it on the Rehost Network. On the local machine, you'll configure the subdomains, port numbers and application files through `yml` files to control all aspects of your application running on the cloud.
+Rehost CLI is a robust toolset designed to manage applications running. On the remote instance, you'll provide a unique label to your machine to save it on the Rehost Network. On the local machine, you'll configure the subdomains, port numbers and application files through `yml` files to control all aspects of your application running on the cloud.
 
 ### Rehost Machine
 
