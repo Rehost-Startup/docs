@@ -65,6 +65,8 @@ You can monitor the logs of build and app in Rehost Dashboard.
 
 ## 4. Use Hot-Reload
 
+In the parent directory of `rehostapp.yml`, run:
+
 ```
 rh app hot-reload
 
