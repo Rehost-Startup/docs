@@ -29,8 +29,8 @@ disk: '256gb'
 
 The `memory` and `disk` are optional attributes and play no functional role in deployment. These attributes are simply for information purpose. You can set them as you want. Replace `<username>` with your account username. By default, a team named `personal` is created for you when you sign-up for the first time.
 
-4. Run `rh machine save` to register this machine.
-5. Run `rh machine up` to turn on your machine in the network.
+4. In the parent directory of `rehostmachine.yml`, run `rh machine save` to register this machine.
+5. Next, run `rh machine up` to turn on your machine in the network.
 6. Leave this process running and close the SSH connection.
 
 ## 3. Deploy an App
@@ -40,7 +40,7 @@ The `memory` and `disk` are optional attributes and play no functional role in d
 git clone https://github.com/Rehost-Startup/template-react.git
 
 ```
-2. Edit `rehostapp.yml` file:
+2. In the root directory of the codebase, edit `rehostapp.yml` file:
 
 ```
 version: 1
@@ -56,20 +56,7 @@ machines:
 
 Here, replace `<username>` with your Rehost Username.
 
-3. On your VM instance, create a new file named `rehostmachine.yml` with the following content:
-
-```
-version: 1
-
-label: '<username>.personal.gcp'
-memory: '2gb'
-disk: '256gb'
-
-``` 
-
-Next, run `rh machine save` followed by `rh machine up` to connect your VM instance to Rehost.
-
-4. Finally, run the following command on local machine to deploy the project:
+3. Finally, run the following command on local machine to deploy the project:
 
 ```
 rh app deploy
