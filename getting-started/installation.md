@@ -5,7 +5,7 @@ The CLI is available on [Windows](getting-started/installation?id=windows), [Lin
 ## CLI Installation
 
 ### Mac
-* **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Linux) instructions](https://docs.docker.com/get-docker/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
+* **Optional**: Docker is required on the compute machine where apps will be deployed. Install Docker using [official Docker(Mac) instructions](https://docs.docker.com/desktop/mac/install/). Finally, install [Docker-Compose](https://docs.docker.com/compose/install/) to leverage complete Docker functionality.
 * Download zipped binaries from [the link](https://github.com/Rehost-Startup/docs/releases/download/v0.4/rehostcli-macos-0.4.zip) and unzip it.
 
 * The extracted content comprises a single folder `rehost`. Move this folder to any location where you prefer saving the CLI executables. Then, in the parent of `rehost`, run the following commands to install the CLI:
