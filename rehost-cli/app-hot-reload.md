@@ -2,7 +2,7 @@
 
 ```
 Usage:
-rh app delete [OPTIONS]
+rh app hot-reload [OPTIONS]
 
 OPTIONS:
 -s, --soft    Restarts docker container runs your app for every change.
