@@ -29,9 +29,8 @@ disk: '256gb'
 
 The `memory` and `disk` are optional attributes and play no functional role in deployment. These attributes are simply for information purpose. You can set them as you want. Replace `<username>` with your account username. By default, a team named `personal` is created for you when you sign-up for the first time.
 
-4. In the parent directory of `rehostmachine.yml`, run `rh machine save` to register this machine.
-5. Next, run `rh machine up` to turn on your machine in the network.
-6. Leave this process running and close the SSH connection.
+3. In the parent directory of `rehostmachine.yml`, run `rh machine save` to register this machine.
+4. Next, run `rh machine up` to turn on your machine in the network. Leave this process running and close the SSH connection.
 
 ## 3. Deploy an App
 1. Clone this repository
