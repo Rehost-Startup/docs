@@ -60,6 +60,6 @@ The lifecycle of a Rehost App is as follows:
 
 All CLI logs saved to a `default.log` file.
 
-On Linux, this file can be found at `/etc/rehost/logs/default.log`.
+On Linux and MacOS, this file can be found at `/etc/rehost/logs/default.log`.
 
 On Windows, this file can be found at `C:\rehost\logs\default.log`.
