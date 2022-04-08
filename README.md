@@ -7,12 +7,12 @@
 Rehost provides the ability to directly control files and processes inside a remote machine. The simple architecture and powerful CLI is designed to remove the burden of managing CI/CD and setup cloud infrastructure with minimal effort. The tooling provides the following management tasks for your applications:
 * Quickly setup cloud infrastructure just by turning on a VM. Let Rehost take care of HTTPS URLs, port management and load-balancing. 
 * Develop locally and automatically deploy changes instantly as you save your files locally.
-* Manage multiple apps through and scale them across multiple machines through the command line.
+* Manage multiple apps and scale them across multiple machines through the command line.
 
 ## What can I use Rehost for?
 ### Instant Replication of Localhost Environment
 
-Rehost sets up a tunnel between localhost machines and all of your cloud machines. There are 3 kinds of hot-reload modes available: Default Reload, Soft Reload and Hard Reload. Each of these modes are designed to reflect changes that take up your development time. The quick changes such as simple HTML and JS files can be made in default mode. Furthermore, for changes that require restarting application as a whole to update environment, application dependencies and background services, the Soft and Hard Reload can be used.
+Rehost sets up a tunnel between localhost machines and all of your cloud machines. There are 3 kinds of hot-reload modes available: **Default Reload**, **Soft Reload** and **Hard Reload**. Each of these modes are designed to reflect changes that take up your development time. The quick changes such as simple HTML and JS files can be made in default mode. Furthermore, for changes that require restarting application as a whole to update environment, application dependencies and background services, the Soft and Hard Reload can be used. Read more about its usage [here](/getting-started/quickstart?id=_4-use-hot-reload).
 
 ### Loosen Dependency on a Single Cloud Ecosystem
 

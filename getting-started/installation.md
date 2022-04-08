@@ -24,7 +24,7 @@ sudo chown -R $(whoami) /etc/rehost/
 echo "export PATH=$(pwd)/rehost/bin:$PATH" >> ~/.bash_profile
 ```
 
-* Close this terminal and open a new one. Run `rh -v`. It should give you a security warning. You need to permit the CLI to be run by Mac by going to `System Preferences>Security & Privacy>Privacy` and click 'Allow Anyway` for the command `rh`. Repeat this step but instead of running `rh -v`, run `rhbkg`.
+* Close this terminal and open a new one. Run `rh -v`. It should give you a security warning. You need to permit the CLI to be run by Mac by going to `System Preferences>Security & Privacy>Privacy` and click `Allow Anyway` for the command `rh`. Repeat this step but instead of running `rh -v`, run `rhbkg`.
 
 * Check the version by running:
 
