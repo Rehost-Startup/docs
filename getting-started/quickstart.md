@@ -74,15 +74,17 @@ rh app hot-reload
 
 Edit `/src/App.js` file and save to see the changes go live instantly.
 
-<hr/>
-
-In the window where the hot-reload session is running, you can further use the following commands to send specific changes to the running app:
+In the temrinal session where the hot-reload session is running, you can further use the following commands to send specific changes to the running app:
 
 ```
 shift+r: Soft-Reload. This will reload the app without rebuilding the app. Any changes to environment or dependencies will not be picked up.
 ctrl+r: Hard-Reload. This rebuilds the environment and all changes in environment, including package depencies, will be picked up.
 
 ```
+
+<hr/>
+
+
 
 If you have any feedback regarding this documentation, feel free to reach out to us on [Discord](https://discord.gg/RnkBxDJJhQ).
 Note: Only 1 user can use hot-reload at a time for a given deployment.
