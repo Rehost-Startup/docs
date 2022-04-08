@@ -85,4 +85,5 @@ ctrl+r: Hard-Reload. This rebuilds the environment and all changes in environmen
 ```
 
 If you have any feedback regarding this documentation, feel free to reach out to us on [Discord](https://discord.gg/RnkBxDJJhQ).
+Note: Only 1 user can use hot-reload at a time for a given deployment.
 

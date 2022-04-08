@@ -18,7 +18,10 @@ Starts tracking changes in the current directory and the remote directory that c
 
 After starting hot-reload in any mode, you can trigger soft-reload by pressing `shift+r` and hot-reload by pressing `ctrl+r` in the terminal.
 
-Note: `rehostapp.yml` should be present in the current directory. 
+Note: 
+* `rehostapp.yml` should be present in the current directory. 
+* Only 1 user can use hot-reload at a time for a given deployment.
+
 
 
 
