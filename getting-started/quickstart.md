@@ -77,8 +77,8 @@ Edit `/src/App.js` file and save to see the changes go live instantly.
 In the temrinal session where the hot-reload session is running, you can further use the following commands to send specific changes to the running app:
 
 ```
-shift+r: Soft-Reload. This will reload the app without rebuilding the app. Any changes to environment or dependencies will not be picked up.
-ctrl+r: Hard-Reload. This rebuilds the environment and all changes in environment, including package depencies, will be picked up.
+shift+r: Soft-Reload. This will reload the app without rebuilding the app. Any changes to environment or dependencies are not be picked up.
+ctrl+r: Hard-Reload. This rebuilds the app and all changes in environment and package dependencies are picked up.
 
 ```
 
