@@ -3,10 +3,10 @@
 > This tutorial will show you how to register a compute machine, deploy a React app and use hot-reload for development.
 
 ## Content
-1. [Install Rehost CLI](https://docs.rehost.in/#/getting-started/quickstart?id=_1-install-rehost-cli)
-2. [Register Compute Machine](https://docs.rehost.in/#/getting-started/quickstart?id=_2-register-compute-machine)
-3. [Deploy an App](https://docs.rehost.in/#/getting-started/quickstart?id=_3-deploy-an-app)
-4. [Update App using Hot-Reload](https://docs.rehost.in/#/getting-started/quickstart?id=_4-use-hot-reload)
+1. [Install Rehost CLI](getting-started/quickstart?id=_1-install-rehost-cli)
+2. [Register Compute Machine](/getting-started/quickstart?id=_2-register-compute-machine)
+3. [Deploy an App](/getting-started/quickstart?id=_3-deploy-an-app)
+4. [Update App using Hot-Reload](/getting-started/quickstart?id=_4-use-hot-reload)
 
 ## 1. Install Rehost CLI
 
